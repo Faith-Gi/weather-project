@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Searchengine.js";
+import "./Searchengine.css";
 
 function WeatherSearchEngine() {
   const [city, setCity] = useState("");

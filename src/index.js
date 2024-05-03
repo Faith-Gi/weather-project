@@ -1,19 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import App from "./App.css";
-import Searchengine from "./Searchengine";
-import Searchengine from "./Searchengine.css";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import reportWebVitals from "./reportWebVitals";
-<header>
-  <Searchengine />
-  <Searchengine.css />
-  <App />
-  <App.css />
-</header>;
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
